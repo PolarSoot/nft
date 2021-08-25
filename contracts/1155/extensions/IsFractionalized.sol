@@ -6,8 +6,6 @@ import "../1155/Collection.sol";
 
 
 contract IsFractionalized is Collection {
-	function 
-}
 
 	function create(
 	bool _fractionalized,
@@ -48,3 +46,4 @@ contract IsFractionalized is Collection {
     	function getFractionalizedStatus(uint256 _id) public view returns (bool) {
 		return token[_id].fractionalized
 	}
+}
